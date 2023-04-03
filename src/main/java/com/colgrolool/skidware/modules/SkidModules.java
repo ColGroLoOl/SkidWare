@@ -11,6 +11,7 @@ public class SkidModules {
     public static void register() {
         addModules(
             new GodBridge(),
+            new NewChunks(),
             new VillagerRoller()
         );
     }
