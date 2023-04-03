@@ -9,7 +9,6 @@ public class SkidHud {
 
     public static void register() {
         addHudElements(
-            new HudExample()
         );
     }
 

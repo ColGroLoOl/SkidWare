@@ -6,7 +6,6 @@ import meteordevelopment.meteorclient.systems.commands.Commands;
 public class SkidCommands {
     public static void register() {
         addCommands(
-            new CommandExample()
         );
     }
 
