@@ -9,6 +9,7 @@ public class SkidHud {
 
     public static void register() {
         addHudElements(
+            new KeyStrokesHudElement(),
             new TargetHudElement()
         );
     }
