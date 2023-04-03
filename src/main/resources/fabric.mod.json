@@ -1,27 +1,27 @@
 {
   "schemaVersion": 1,
-  "id": "addon-template",
+  "id": "skidware",
   "version": "${version}",
-  "name": "Addon Template",
-  "description": "An addon template for the Meteor addons.",
+  "name": "SkidWare",
+  "description": "Collection of useful shit.",
   "authors": [
-    "seasnail"
+    "ColGroLoOl"
   ],
   "contact": {
     "repo": "https://github.com/MeteorDevelopment/meteor-addon-template"
   },
-  "icon": "assets/template/icon.png",
+  "icon": "skidware/template/icon.png",
   "environment": "client",
   "entrypoints": {
     "meteor": [
-      "com.example.addon.Addon"
+      "com.colgrolool.skidware.SkidWare"
     ]
   },
   "mixins": [
-    "addon-template.mixins.json"
+    "skidware-template.mixins.json"
   ],
   "custom": {
-    "meteor-client:color": "225,25,25"
+    "meteor-client:color": "15, 15, 15"
   },
   "depends": {
     "java": ">=17",
