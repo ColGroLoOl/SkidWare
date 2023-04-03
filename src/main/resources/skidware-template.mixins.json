@@ -2,7 +2,10 @@
   "required": true,
   "package": "com.colgrolool.skidware.mixin",
   "compatibilityLevel": "JAVA_17",
-  "client": [],
+  "client": [
+    "MerchantScreenHandlerMixin",
+    "VillagerInteractMixin"
+  ],
   "injectors": {
     "defaultRequire": 1
   }

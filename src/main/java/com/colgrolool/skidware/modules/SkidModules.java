@@ -10,6 +10,7 @@ public class SkidModules {
 
     public static void register() {
         addModules(
+            new VillagerRoller()
         );
     }
 
